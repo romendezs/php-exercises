@@ -1,7 +1,7 @@
 <?php
 
     if($_SERVER["REQUEST_METHOD"]== "POST" && isset($_POST['primeNumbers'])){
-        $n = intval($_POST['primeNumbers']);
+        $n = $_POST['primeNumbers'];
 
 
        function isPrime($n){
